@@ -1,24 +1,15 @@
-# ![](https://github.com/hmg65/msbank/blob/master/public/favicon.ico?raw=true) MS Bank - Gesture & Facial Recognition Enabled Banking Web App
-
-## Submission for Microsoft Engage 2022 🌟
-
-[![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://youtu.be/6WKk-26gVIg)
-
-## Deployed Application Link
-
-https://msbank.vercel.app/
+#  MS Bank - Gesture & Facial Recognition Enabled Banking Web App
 
 ## Instructions to run it locally
 
-1. `git clone https://github.com/hmg65/msbank.git`
-2. `cd ./msbank`
-3. Install node dependencies
+1. `git clone https://github.com/princenitk/MS-Bank.git`
+2. Install node dependencies
    - `npm install`
-4. Replace firebase API keys with your configurations
-5. Create a .env file
+3. Replace firebase API keys with your configurations
+4. Create a .env file
    - Add relevant credentials (I've given in the last section of Acehacker Final Submission Page)
-6. `npm start`
-7. The app is now running at http://localhost:3000/
+5. `npm start`
+6. The app is now running at http://localhost:3000/
 
 ## Points to remember while testing the app
 
@@ -90,15 +81,3 @@ Now comes the most exciting stuff, this project will also consume **Tensorflow J
 - **react-number-format** : React component to format number in an input or as a text
 
 - **react-webcam** : Webcam component for React to access webcam and campture images and videos
-
-## Useful Links
-
-- [Deployed Website](https://msbank.vercel.app/)
-- [Demo Video](https://youtu.be/6WKk-26gVIg)
-- [Ideation Document](https://docs.google.com/document/d/1elNAjPtOOx5mjmiPdku7XgqDaM9YQW5jG4980_XLdhg/edit?usp=sharing)
-
-## Need help?
-
-Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/hmg/)
-
-[![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)](https://www.instagram.com/_hmg65/) [![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/_hmg65)
