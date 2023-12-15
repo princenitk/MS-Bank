@@ -1,0 +1,274 @@
+body {
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.modal-60h {
+  height: 60%;
+}
+
+/* Login */
+
+.login_background {
+  background-image: url("./images/Login.svg");
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  margin: auto;
+  background-position: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .login_background {
+    background-image: none;
+  }
+}
+
+/* Payment */
+
+.modal_gesture {
+  max-width: 48px;
+  max-height: 48px;
+  margin-bottom: 4px;
+}
+.payment_background {
+  background-image: url("./images/Payment.svg");
+  background-repeat: no-repeat;
+  background-size: 50% 80%;
+  margin: auto;
+  background-position: left center;
+}
+
+@media screen and (max-width: 1000px) {
+  .payment_background {
+    background-image: none;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Profile */
+.profile_background {
+  background-image: url("./images/Profile.svg");
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  margin: auto;
+  background-position: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile_background {
+    background-image: none;
+  }
+}
+
+.profile_card {
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.profile_card_header {
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.profile_card_elements {
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* SignUp */
+.signup_background {
+  background-image: url("./images/Signup.svg");
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  margin: auto;
+  background-position: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .signup_background {
+    background-image: none;
+  }
+}
+
+/* Add Beneficiary */
+
+.add_beneficiary_background {
+  background-image: url("./images/Add_Beneficiary.svg");
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  margin: auto;
+  background-position: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .add_beneficiary_background {
+    background-image: none;
+  }
+}
+
+/* profile picture */
+
+.user_image {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10%;
+}
+
+/* receipt page */
+
+.card_width {
+  max-width: 50%;
+  min-width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .card_width {
+    max-width: 70%;
+    min-width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card_width {
+    max-width: 90%;
+    min-width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card_width {
+    max-width: 95%;
+    min-width: 95%;
+  }
+}
+
+.card_height {
+  max-height: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .card_height {
+    max-height: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card_height {
+    max-height: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card_height {
+    max-height: 95%;
+  }
+}
+
+.logo_image {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.nav_logo {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+/* -----Home----- */
+
+.customer_id_card {
+  background-color: #fbc1b1;
+}
+
+@media screen and (max-width: 767px) {
+  .customer_id_card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .customer_id_card {
+    max-width: 20rem;
+  }
+}
+
+.account_no_card {
+  background-color: #dfff99;
+}
+
+@media screen and (max-width: 767px) {
+  .account_no_card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .account_no_card {
+    max-width: 20rem;
+  }
+}
+
+.current_balance_card {
+  background-color: #d6f2ff;
+}
+
+@media screen and (max-width: 991px) {
+  .current_balance_card {
+    display: none;
+  }
+}
+
+.last_txn_card {
+  background-color: #ffebad;
+}
+
+@media screen and (max-width: 991px) {
+  .last_txn_card {
+    display: none;
+  }
+}
+
+.current_balance_nav {
+  display: none;
+}
+
+@media screen and (max-width: 995px) {
+  .current_balance_nav {
+    display: block;
+  }
+}
+
+.special_card {
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.webcam_video_size {
+  width: 100%;
+}
+
+.deposit_button {
+  background-color:  #7DB800;
+}
+
+.cancel_button {
+  background-color: #F34616;
+}
