@@ -6,13 +6,13 @@ import {getStorage} from "firebase/storage";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "msbank-dfab6.firebaseapp.com",
-  databaseURL: "https://msbank-dfab6-default-rtdb.firebaseio.com",
-  projectId: "msbank-dfab6",
-  storageBucket: "msbank-dfab6.appspot.com",
-  messagingSenderId: "283506523535",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: "G-8KYJS86GT5"
+  measurementId: ""
 };
 
 
